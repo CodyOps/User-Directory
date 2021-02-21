@@ -79,6 +79,7 @@ const DataArea = () => {
   };
 
   useEffect(() => {
+    //get users from random user api
     API.getUsers().then((res) => {
       setDeveloperState({
         ...developerState,
@@ -89,6 +90,7 @@ const DataArea = () => {
   }, []);
 
   return (
+    //return dataareacontext and navbar
     <DataAreaContext.Provider
       value={{ developerState, handleSearchChange, handleSort }}
     >

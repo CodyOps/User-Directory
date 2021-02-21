@@ -3,6 +3,7 @@ import React, { useContext } from "react";
 import DataAreaContext from "../../utils/DataAreaContext";
 import "./SearchName.css";
 
+//function to return searchbox and button
 const SearchName = () => {
   const context = useContext(DataAreaContext);
 

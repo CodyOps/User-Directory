@@ -1,7 +1,9 @@
+//import in react, searchname and nav.css
 import React from "react";
 import SearchName from "../SearchName";
 import "./Nav.css";
 
+//function to return nav jsx
 function Nav() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">

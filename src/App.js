@@ -5,6 +5,7 @@ import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
 import "./App.css";
 
+//function to render JSX
 function App() {
   return (
     <div className="App">
@@ -16,4 +17,5 @@ function App() {
   );
 }
 
+//export as App for other files to use
 export default App;
